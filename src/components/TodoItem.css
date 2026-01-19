@@ -2,13 +2,18 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    border: 1px  solid blue;
+    border: 1px  solid #1976d2;
     padding: 8px;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.todo span {
+    flex: 1;
 }
 
 .todo .done {
     text-decoration: line-through;
     opacity: 0.6;
-    border-color: green;
+    border-color: #2e7d32;
 }
